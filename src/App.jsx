@@ -72,7 +72,7 @@ function App() {
   
   return (
 	<div className = "App">
-	  <h1>Dice Roll</h1>
+	  <h1>Play Room</h1>
 	  {
 		(
 		  numOfChances > 0
