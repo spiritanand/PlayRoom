@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: SansSerif, sans-serif;
+}
+
+h1 {
+    margin: 1rem auto;
+}
+
+p {
+    margin: 0.75rem auto;
+}
+
+.game-room {
+    display: flex;
+}
+
+.room {
+    flex: 1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-left {
+    background: orchid;
+}
+
+.room-right {
+    background-color: olivedrab;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+li {
+    background: burlywood;
+    padding: 1rem;
+    border-radius: 1rem;
+}
